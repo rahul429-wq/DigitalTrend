@@ -1,0 +1,130 @@
+@media screen and (max-width:1200px)
+{
+    .main{
+        width: 940px;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    nav{
+        padding: 0px 10px;
+    }
+    .main{
+        width: 100%;
+    }
+    nav .main ul li{
+        float: none;
+    }
+    nav .main ul{
+        float: none;
+        display: none;
+        text-align: center;
+    }
+    .check{
+        display: inline-block;
+        cursor: pointer;
+    }
+    #chk1:checked + ul{
+        display: block;
+    }
+    .marketing .main .left{
+    display: block;       
+    float: none;
+    margin: auto;
+    text-align: center;
+    }
+    .marketing .main .left h1{
+        font-size: 35px;
+    }   
+
+    .marketing .main .right{
+        display: block;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .janeiro h2{
+        width: 100%;
+    }
+    .feature h2{
+        width: 100%;
+    }
+    .look{
+        padding:0 20px;
+    }
+    .look .images{
+        float: none;
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .testimonials .left{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        /* padding: 10px 0; */
+
+    }
+    .testimonials .right{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .testimonials .right h3 {
+        margin-top: 5px;
+    }
+    .testimonials .right p {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+
+    }
+    .footer .brands,.contact,.our{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .contact a{
+        margin-bottom: 10px;
+
+    }
+    .footer .brands h1{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .our p{
+    width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    .marketing .left,.right{
+        width: 80%;
+    }
+    .janeiro
+    {
+        width:80%;
+    }
+    .testimonials .left, .right {
+     
+        text-align: center;
+        margin: auto;
+    }
+    .footer{
+        padding:0 5px;
+    }
+
+}
+
+@media screen and (max-width: 360px)  {
+    nav .logo a, i{
+        font-size:20px;
+    }
+}

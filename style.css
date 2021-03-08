@@ -1,0 +1,275 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family:sans-serif,Verdana,Georgia;
+}
+ul,li,ol,a{
+    list-style: none;
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+nav{
+    /* width: 100%; */
+    /* background-color: #057a8d; */
+    background-color: #0C8195;
+}
+.main{
+    width: 1170px;
+    padding: 30px 0;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+}
+.logo > i{
+    font-size: 35px;
+    color: white;
+}
+.logo >a{
+    
+    font-size: 35px;
+    color: white;
+}
+.clear::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.main ul{
+    float: right;
+}
+
+.main ul li{
+    float:left;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.main ul li a{
+    color:white;
+    padding:15px 20px;
+    display:inline-block;
+}
+.main ul li.active{
+    border: 1px solid yellow;
+    border-radius:20px;
+    line-height:10px;
+    color:orange;
+    display: inline-block;
+}
+.main ul li.active:hover a{
+    /* background-color: yellow; */
+    color: rgb(243, 240, 240);
+}
+.main ul li.active a{
+    color: yellow;
+}
+
+.check{
+    position: absolute;
+    top: 40px;
+    right:40px;
+    text-align: center;
+    display: none;
+}
+.check i{
+    color:white;
+    font-size:30px;
+}
+#chk1{
+    display: none;
+}
+
+/* !header end */
+
+/* todo // slider start */
+
+.marketing{
+    padding:115px 0;
+  
+    background:linear-gradient(170deg,#057A8D 70%,white 30%);
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.left{
+    width: 50%;
+    display: inline-block;
+    padding: 50px 0px;
+}
+.right
+{
+    width: 50%;
+    float: right;
+}
+.left h1 {
+    color: white;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.left > a {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    color: #057A8D;
+}
+.left h4 a {
+    display: inline-block;
+    margin: 25px 35px;
+    color: white;
+}
+/* todo // slider end */
+
+
+/* janerio */
+
+.janeiro {
+    margin: 100px auto;
+    width: 60%;
+}
+.janeiro h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    width: 70%;
+}
+.janeiro span {
+    color: orange;
+}
+
+.janeiro h3 {
+    margin: 35px 0;
+    font-weight: 100;
+    color: #808080;
+}
+
+
+/* janerio */
+/* !look */
+
+.look{
+    background-color: #F0F8FF;
+    padding: 50px 0;
+}
+.feature{
+    width: 47%;
+    margin: 50px auto;
+}
+.feature h2{
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: center;
+}
+.feature span{
+    color: orange;
+}
+
+.images{
+    float: left;
+    width: 33.33%;
+}
+
+/* !look */
+/*todo testimonials */
+
+.testimonials .right {
+    margin: 100px 0;
+}
+
+    .testimonials .right h3 {
+        color: #808080;
+        margin-top: 70px;
+        font-weight: 100;
+    }
+
+    .testimonials .right p {
+        font-size: 35px;
+        width: 90%;
+        margin: 50px 0;
+        color: black;
+    }
+
+
+    .testimonials .right span {
+        color: orange;
+    }
+
+    .testimonials .right i {
+        color: #808080;
+    }
+
+    .testimonials .right small {
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+
+
+/*todo testimonials */
+
+
+/* !footer  */
+.footer {
+    background-color: black;
+    padding: 150px 0;
+}
+
+    .footer .brands {
+        display: inline-block;
+        width: 39%;
+        float: left;
+    }
+
+        .footer .brands h1 {
+            font-size: 40px;
+            color: white;
+            font-weight: 500;
+            line-height: 50px;
+        }
+
+        .footer .brands span {
+            color: orange;
+        }
+
+.contact, .our {
+    width: 30%;
+    float: left;
+}
+
+.contact h3, .our h3{
+    color:#808080;
+    font-weight:300;
+    margin-bottom:30px;
+
+}
+
+
+.contact a{
+    color:#808080;
+    font-weight:300;
+    display:block;
+    line-height:25px;
+}
+
+.contact i, .our i{
+    color:yellow;
+    padding: 5px;
+}
+
+
+.our p{
+    color:#808080;
+    font-weight:300;
+    line-height:25px;
+    width: 70%;
+}
+
+
+
+/* !footer  */
